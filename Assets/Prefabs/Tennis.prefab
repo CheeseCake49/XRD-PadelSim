@@ -65,6 +65,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4442052524370534895}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4757059083139875148}
   m_SourcePrefab: {fileID: 100100000, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
 --- !u!1 &3581910889277613944 stripped
 GameObject:
@@ -79,8 +82,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3581910889277613944}
   serializedVersion: 5
-  m_Mass: 0.057
-  m_LinearDamping: 0.05
+  m_Mass: 0.1
+  m_LinearDamping: 0.5
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -247,3 +250,16 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &4757059083139875148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581910889277613944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0290d6fec46a54a91f8a0dde644e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallSpeedLimiter
+  maxSpeed: 25

@@ -134,7 +134,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279004149106079174}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -876,7 +876,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2587651946957739428}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -988,7 +988,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2676087934188961577}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1548,7 +1548,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4054675528942002418}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4ffdddcc8739d214dbad080a7f68d9a6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1693,7 +1693,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5238152711280061053}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1952,7 +1952,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6788256020723805317}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2324,7 +2324,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8312272876981236709}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c31fd4015daa851468454c6e6e983efc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
