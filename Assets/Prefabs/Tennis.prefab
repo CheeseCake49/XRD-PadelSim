@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tennis
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68,6 +72,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4757059083139875148}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3853204049048743889}
   m_SourcePrefab: {fileID: 100100000, guid: 3405ec22bef4339439b628ee6e6bdb36, type: 3}
 --- !u!1 &3581910889277613944 stripped
 GameObject:
@@ -263,3 +270,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallSpeedLimiter
   maxSpeed: 25
+--- !u!114 &3853204049048743889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581910889277613944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcffea6c948ec8a46b930a51db3bfc7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallImpactIndicator
+  greenPrefab: {fileID: 7625818376166487513, guid: 922f260f076c8494197e6c71f77f13f7, type: 3}
+  redPrefab: {fileID: 7625818376166487513, guid: ef33643914bfa8e45b107a485e550cd0, type: 3}
+  serveLinePlane: {fileID: 0}

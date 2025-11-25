@@ -9,6 +9,8 @@ public class BallSpawner : MonoBehaviour
     public Transform playerTransform;          // e.g. Main Camera or XR Origin
     public Vector3 localOffset = new Vector3(0f, -0.3f, 0.6f);
     // x = left/right, y = up/down, z = forward
+    public Transform serveLinePlane;
+    public Transform net;
 
     public void SpawnBall()
     {
@@ -23,6 +25,8 @@ public class BallSpawner : MonoBehaviour
         Quaternion spawnRot = Quaternion.LookRotation(playerTransform.forward, Vector3.up);
 
         GameObject ball = Instantiate(ballPrefab, spawnPos, spawnRot);
+        ball.GetComponent<BallImpactIndicator>().serveLinePlane = serveLinePlane;
+        ball.GetComponent<BallImpactIndicator>().net = net;
 
         // Start with no initial velocity so it just drops
         if (ball.TryGetComponent<Rigidbody>(out var rb))
